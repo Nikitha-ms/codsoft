@@ -10,14 +10,15 @@
     <nav>
       <div class="brand">Niki HR</div>
       <ul class="links">
-        <li class="link">Home</li>
-        <li class="link">Service</li>
-        <li class="link">Testimonials</li>
-        <li class="link">Contact</li>
+        <li ><a class="link"href="#home">Home</a></li>
+        <li><a  class="link"href="#Service">Service</a></li>
+        <li ><a class="link" href="#Testimonials">Testimonials</a></li>
+        <li ><a class="link" href="#Contact">Contact</a></li>
       </ul>
     </nav>
 
-    <section class="home">
+    <section class="home" id="home">
+        
       <div class="text">
         <ul>
           <li>
@@ -51,8 +52,8 @@
       </div>
     </section>
 
-    <section class="home">
-
+    <section class="home" id="Service">
+      
         
         <div class="text">
           <ul>
@@ -72,7 +73,8 @@
         </div>
       
     </section>
-     <section class="testimonial">
+     <section class="testimonial" id="Testimonials">
+      
       <div class="testimony-container">
                 
         <img src="girl1.jpg" alt="girl1" width="200px" height="100px">
@@ -89,16 +91,20 @@
         <p>Navigating the complexities of HR compliance was a daunting task for us until we partnered with the HR professionals. Their team's expertise ensured that our policies and practices were not only up-to-date but also aligned with our organizational values. Their HR solutions provide peace of mind, allowing us to focus on what we do best.</p>
     </div>
      </section>
-     <section class="contact">
+     <section class="contact" id="Contact">
       <div class="contact-text">
-        <h3>Let's Transform Your HR Experience </h3>
+        <h3 style="text-align: center;">Let's Transform Your HR Experience </h3>
+        <h4 style="text-align: center;">join us , fill ur form to contact us</h4>
 </div>
 <div class="form">
-<h3>Contact Form</h3>
+<h3 style="text-align:center;">Contact </h3>
 <form>
-     Name : <input type="text" placeholder="your name" name="name">
-    email: <input type="email" placeholder="email" name="email">
-    phoneno:<input type="number" placeholder="phone" name="phone">
+    <label for="name" class="label">Name</label>
+    <input type="text" placeholder="your name" name="name">
+   <label for="E-mail" class="label"> E-mail</label>
+    <input type="email" placeholder="E-mail" name="E-mail">
+    <label for="PhoneNo" class="label">PhoneNo</label>
+    <input type="number" placeholder="PhoneNo" name="PhoneNo">
     <button type="submit">Submit</button>
 </form>
     </div>
