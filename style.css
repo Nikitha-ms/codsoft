@@ -1,16 +1,25 @@
-* {
+ * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
 }
 body {
   background-color: #f6d0fe;
 }
 
+.imagediv{
+background-image: url('background.jpeg');
+height:600px;
+background-repeat: no-repeat;
+background-size:cover;  
+
+}
+
 nav {
   display: flex;
   width: 100%;
-  padding: 0 10%;
+  padding: 1% 10%;
   justify-content: space-between;
   background-color: #821890;
 }
@@ -34,24 +43,34 @@ nav {
   color: #fdf4ff;
   text-decoration: none;
 }
+
+.h2 {
+  text-align: center;
+  padding-top:20px;
+  font-size:2em;
+}
 .home {
   display: flex;
-  padding: 0 15%;
+  padding: 0 12%;
 }
 
 .text {
-  font-size: 1em;
+  font-size: 1.6em;
   width: 50%;
   margin: 30px;
   padding: 20px;
   color: #fdf4ff;
   background-color: #821890;
+  
 }
 
+
 .image {
-  padding: 2% 15%;
-  margin-left: auto;
-  margin-right: auto;
+  padding: 20px;
+}
+.img {
+  width: 600px;
+  height: 600px;
 }
 
 .testimonial {
@@ -79,15 +98,18 @@ nav {
 
 .contact {
   display: block;
-  padding: 0 15%;
+  padding: 2% 15%;
 }
 .contact h3 {
   padding: 20px;
 }
 .contact-text {
   width: 100%;
-  color:#410849;
+  color: #410849;
 }
+
+
+
 
 form {
   background-color: #ffffff;
@@ -100,13 +122,13 @@ input {
   width: 100%;
   padding: 10px;
   margin-bottom: 16px;
-  border: 1px solid ;
+  border: 1px solid;
   border-radius: 4px;
 }
-label{
-  color:#f6d0fe;
-  font-size:1.3em;
-  font-weight:bold;
+label {
+  color: #f6d0fe;
+  font-size: 1.3em;
+  font-weight: bold;
 }
 button {
   padding: 12px;
@@ -115,4 +137,43 @@ button {
   background-color: #821890;
   width: 100%;
   color: #fdf4ff;
+} 
+
+.footer {
+  background-color: #821890;
+  color: #fdf4ff;
+  justify-content: end;
+  text-align: center;
+
+  
+}
+
+.contact h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.contact-text {
+  list-style: none;
+  padding: 0;
+}
+
+.contact-text li {
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #f6d0fe;
+  font-size: 1.8em;
+  
+
+}
+
+.contact-text li i {
+  margin-right: 10px;
+  font-size: 1.2em;
+}
+.fa-solid {
+  font-size: 24px;
+  color:#fdf4ff;
 }
