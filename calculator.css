@@ -30,6 +30,7 @@ input{
     font-size: 30px;
     text-align: right;
     cursor: pointer;
+    color:white;
 }
 
 input::placeholder{
