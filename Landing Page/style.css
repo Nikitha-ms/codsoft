@@ -1,19 +1,22 @@
- * {
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-
 }
 body {
-  background-color: #f6d0fe;
+  /* background-color: #f6d0fe; */
+  background-image: url(human-resources-concept-with-hand.jpg);
+  opacity: 1;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.imagediv{
-background-image: url('background.jpeg');
-height:600px;
-background-repeat: no-repeat;
-background-size:cover;  
-
+.imagediv {
+  background-image: url("hands.jpg");
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.5;
 }
 
 nav {
@@ -21,20 +24,23 @@ nav {
   width: 100%;
   padding: 1% 10%;
   justify-content: space-between;
-  background-color: #821890;
+  /* background-color: #821890; */
+  background-color: #282727;
 }
 
 .brand {
   display: flex;
   align-items: center;
-  background-color: #821890;
+  /* background-color: #821890; */
+  background-color: #282727;
   color: #fdf4ff;
 }
 
 .links {
   list-style-type: none;
   display: flex;
-  background-color: #821890;
+  /* background-color: #821890; */
+  background-color: #282727;
 }
 
 .link {
@@ -46,8 +52,9 @@ nav {
 
 .h2 {
   text-align: center;
-  padding-top:20px;
-  font-size:2em;
+  padding-top: 20px;
+  font-size: 2em;
+  color: #fdf4ff;
 }
 .home {
   display: flex;
@@ -60,10 +67,8 @@ nav {
   margin: 30px;
   padding: 20px;
   color: #fdf4ff;
-  background-color: #821890;
-  
+  background-color: #282727;
 }
-
 
 .image {
   padding: 20px;
@@ -81,7 +86,7 @@ nav {
 .testimony-container {
   margin: 10px;
   padding: 20px;
-  background-color: #821890;
+  background-color: #282727;
   color: #fdf4ff;
 }
 .home h3 {
@@ -108,14 +113,11 @@ nav {
   color: #410849;
 }
 
-
-
-
 form {
   background-color: #ffffff;
   padding: 20px;
   border-radius: 8px;
-  background-color: #ac62b6;
+  background-color: #282727;
 }
 
 input {
@@ -134,18 +136,16 @@ button {
   padding: 12px;
   text-align: center;
   border-radius: 8px;
-  background-color: #821890;
+  background-color: #fdf4ff;
+  color: #282727;
   width: 100%;
-  color: #fdf4ff;
-} 
+}
 
 .footer {
-  background-color: #821890;
+  background-color: #282727;
   color: #fdf4ff;
   justify-content: end;
   text-align: center;
-
-  
 }
 
 .contact h3 {
@@ -165,8 +165,6 @@ button {
   align-items: center;
   color: #f6d0fe;
   font-size: 1.8em;
-  
-
 }
 
 .contact-text li i {
@@ -174,16 +172,16 @@ button {
   font-size: 1.2em;
 }
 
-.fade-in{
-animation:fade-in 2s ease-in;
+.fade-in {
+  animation: fade-in 2s ease-in;
 }
 @keyframes fade-in {
-  0%{
-   opacity:0;
-   transform: translate(0px,100px);
+  0% {
+    opacity: 0;
+    transform: translate(0px, 100px);
   }
-  100%{
-   opacity:1;
-   transform: translate(0px,0px);
+  100% {
+    opacity: 1;
+    transform: translate(0px, 0px);
   }
 }
