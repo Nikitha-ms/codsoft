@@ -26,6 +26,7 @@ nav {
   justify-content: space-between;
   /* background-color: #821890; */
   background-color: #282727;
+  position: fixed;
 }
 
 .brand {
@@ -41,6 +42,7 @@ nav {
   display: flex;
   /* background-color: #821890; */
   background-color: #282727;
+  
 }
 
 .link {
