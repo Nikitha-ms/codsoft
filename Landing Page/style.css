@@ -6,7 +6,6 @@
 body {
   /* background-color: #f6d0fe; */
   background-image: url(human-resources-concept-with-hand.jpg);
-  opacity: 1;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -57,7 +56,7 @@ nav {
   padding-top: 20px;
   font-size: 2.5em;
   color: #fdf4ff;
-  margin-top:10vh;
+  margin-top: 10vh;
 }
 .home {
   display: flex;
@@ -91,10 +90,10 @@ nav {
   padding: 20px;
   background-color: #282727;
   color: #fdf4ff;
-  height:50vh;
+  height: 50vh;
 }
-.testimony-container p{
-  font-size:20px;
+.testimony-container p {
+  font-size: 20px;
 }
 .home h3 {
   text-align: center;
@@ -114,7 +113,7 @@ nav {
 }
 .contact h3 {
   padding: 20px;
-  margin-top:5vh;
+  margin-top: 5vh;
   font-size: 2.5em;
 }
 .contact-text {
@@ -135,10 +134,10 @@ input {
   margin-bottom: 16px;
   border: 1px solid;
   border-radius: 4px;
-  height:5vh;
+  height: 5vh;
 }
 label {
-  color:#fdf4ff;
+  color: #fdf4ff;
   font-size: 1.5em;
   font-weight: bold;
 }
@@ -149,8 +148,8 @@ button {
   background-color: #fdf4ff;
   color: #282727;
   width: 100%;
-  height:5vh;
-  margin-top:5vh;
+  height: 5vh;
+  margin-top: 5vh;
 }
 
 .footer {
